@@ -1,9 +1,10 @@
-/*let infoButtonElement = document.getElementById('info-one')
+let infoButtonElement = document.querySelectorAll('.info');
 
-function infoButton(){
-    infoButtonElement.classList.toggle('active');  
+infoButtonElement.forEach(infoButton => {
 
-}
+    infoButton.addEventListener('click', () => {
+        infoButton.classList.toggle('active');
+    })
 
-
-infoButtonElement.addEventListener('click', infoButton);*/
+      
+});
