@@ -10,6 +10,7 @@ export default function Hero(){
                         src="/images/thumbnail.jpeg" 
                         layout="fill"
                         objectFit='cover'
+                        alt="thumbnail"
                         />
                 </div>
                 <div className={styles.description}>
