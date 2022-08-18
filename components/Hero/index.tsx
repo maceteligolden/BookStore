@@ -1,5 +1,6 @@
 import styles from './index.module.css';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Hero(){
     return (
@@ -23,10 +24,11 @@ export default function Hero(){
                         defined money to be the root of all evil, some say money changes people and few 
                         say money gives happiness.
                     </p>
-
-                    <button className={styles.purchaseBtn}>
-                        Purchase
-                    </button>
+                    <Link href="https://paystack.com/pay/7bm1g1s5x8">
+                        <a className={styles.purchaseBtn}>
+                            Purchase
+                        </a>
+                    </Link>
                 </div>
             </section>
         </>
